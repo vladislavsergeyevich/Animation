@@ -1,0 +1,37 @@
+@keyframes moveSeven {
+    0% {
+       bottom: 0px;
+       transform: translate(0px);     
+    }
+    14.285% {
+        z-index: 1;
+       bottom: 0px;
+       transform: translate(-1090px);     
+    }
+    28.57% {
+        z-index: 100;
+        bottom: 37px;
+        transform: translate(-945px) scale(1.5);
+    }
+    42.855% {
+        bottom: 75px;
+        transform: translate(-750px) scale(2);
+    }
+    57.14%  {
+        bottom: 75px;
+        transform: translate(-540px) scale(2);
+    }
+    71.425% {
+        bottom: 75px;
+        transform: translate(-330px) scale(2);
+    }
+    85.71%  {
+        bottom: 37px;
+        transform: translate(-145px) scale(1.5);
+    }
+    99.995% {
+        bottom: 0px;
+        transform: translate(0px) scale(1);
+    }
+  
+}
